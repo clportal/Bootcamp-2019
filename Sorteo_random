@@ -6,3 +6,6 @@ print (parti[randint(0,4)])
 #Sorteo para 5 personas, hay 3 premios
 #ojo: una persona no puede ganar 2 veces
 
+from random import randint
+participantes = ["a1","b2","c3","d4","e5"]
+print (participantes[randint(0,4)])
