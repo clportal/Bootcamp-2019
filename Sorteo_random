@@ -1,11 +1,15 @@
-from random import randint
+#from random import randint
 #Sorteo para 5 personas
-parti = ["pepito", "nemo', "rodi", "dino", "grshits"]
-print (parti[randint(0,4)])
+#parti = ["pepito", "nemo', "rodi", "dino", "grshits"]
+#print (parti[randint(0,4)])
 
 #Sorteo para 5 personas, hay 3 premios
 #ojo: una persona no puede ganar 2 veces
 
 from random import randint
-participantes = ["a1","b2","c3","d4","e5"]
-print (participantes[randint(0,4)])
+parti = ["pepito", "nemo', "rodi", "dino", "grshits"]
+for sorteo in  range (3):
+    parti = parti [random.randint(0,4)]
+    print ("sorteo",sorteo + 1, ":", parti)
+
+
