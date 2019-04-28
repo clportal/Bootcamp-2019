@@ -1,10 +1,9 @@
-# Repo de clases
+# Bootcamp 🐧 2019
 
-## Sub Titulo
+## Bootcamp de Programación
 
-Esto es un repo de prueba
+@ Penguin Academy (Asuncion, Paraguay)
+
+16 de Abril – 01 de Mayo de 2019
 
     print ("hola")
-
-'''python
-print ("hola")'''
